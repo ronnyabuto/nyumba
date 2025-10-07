@@ -12,6 +12,7 @@ import { Footer } from "@/components/footer"
 import { Suspense } from "react"
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_URL || "https://nyumba.com"),
   title: "NYUMBA - Premium African-Inspired Streetwear & Events",
   description:
     "Official store for NYUMBA - DJ, music producer, and event brand. Shop exclusive streetwear, hoodies, tees, and get tickets to unforgettable African-inspired electronic music events.",
